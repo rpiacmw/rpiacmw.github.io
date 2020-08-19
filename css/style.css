@@ -1,0 +1,145 @@
+body {
+    /* background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%); */
+    /* background-image: linear-gradient(-90deg, #accbee 0%, #e7f0fd 100%); */
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+
+    background-repeat: no-repeat;
+    background-color: #eef1f5;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 2em;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 1.3em;
+    color: #424243;
+}
+
+/* SECTIONS */
+.home {
+    height: 100%;
+    padding: 20px;
+}
+
+.about {
+    height: 100%;
+}
+
+.events {
+    height: 100%;
+}
+
+.team {
+    height: 100%;
+}
+
+/* NAVIGATION BAR */
+ul {
+    display: flex;
+    justify-content: flex-end;
+
+    list-style-type: none;
+    padding: 20px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+    color: #424243;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+}
+
+li a:hover {
+    transition: .3s ease;
+    opacity: 0.4;
+}
+
+/* HOMEPAGE */
+#main-img {
+    width: 450px;
+}
+
+.main-img {
+    display: flex;
+    justify-content: center;
+}
+
+/* EVENTS */
+.past-events img {
+   width: 280px; 
+   box-shadow: 10px 10px 5px grey;
+}
+
+.past-events {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* TEAM */
+.team-pics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.team-pics img {
+    width: 260px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-radius: 50%;
+}
+
+/* CONTACT ICONS */
+.mediaIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.mediaIcons img {
+    -webkit-filter: drop-shadow(1px 1px 1px #838383);
+    filter: drop-shadow(1px 1px 1px #838383);
+    width: 60px;
+    padding: 30px 10px 20px 10px;
+}
+
+.mediaIcons img:hover {
+    transition: .3s ease;
+    opacity: 0.5;
+}

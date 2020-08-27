@@ -109,13 +109,13 @@ li a:hover {
 }
 
 /* EVENTS */
-.past-events img {
+.club-events img {
    width: 280px; 
    box-shadow: 10px 10px 5px grey;
    margin: 15px;
 }
 
-.past-events {
+.club-events {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;

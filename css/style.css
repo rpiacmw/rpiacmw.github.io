@@ -135,6 +135,21 @@ li a:hover {
     border-radius: 50%;
 }
 
+.connectWithMe {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.connectIcon {
+    width: 50px;
+    margin: 10px;
+}
+.connectIcon:hover {
+    transition: .3s ease;
+    opacity: 0.4;
+}
+
 /* CONTACT ICONS */
 .mediaIcons {
     display: flex;

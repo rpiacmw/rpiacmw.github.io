@@ -74,7 +74,6 @@ p {
 ul {
     display: flex;
     justify-content: flex-end;
-
     list-style-type: none;
     padding: 20px;
     text-align: center;
@@ -100,7 +99,7 @@ li a:hover {
 
 /* HOMEPAGE */
 #main-img {
-    width: 450px;
+    width: 35%;
 }
 
 .main-img {
@@ -110,7 +109,7 @@ li a:hover {
 
 /* EVENTS */
 .club-events img {
-   width: 280px; 
+   width: 18%; 
    box-shadow: 10px 10px 5px grey;
    margin: 15px;
 }
@@ -118,14 +117,18 @@ li a:hover {
 .club-events {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 /* TEAM */
 .team-pics {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .team-pics img {
@@ -133,6 +136,11 @@ li a:hover {
     padding-top: 20px;
     padding-bottom: 15px;
     border-radius: 50%;
+}
+
+.team-pics img:hover {
+    opacity: 0.4;
+    transition: 0.3s;
 }
 
 .connectWithMe {
@@ -145,6 +153,7 @@ li a:hover {
     width: 40px;
     margin: 10px;
 }
+
 .connectIcon:hover {
     transition: .3s ease;
     opacity: 0.4;

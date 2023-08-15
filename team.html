@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script
+      type="text/javascript"
+      src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.datatables.net/1.10.9/js/jquery.dataTables.min.js"
+    ></script>
+
+    <!-- Add jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Add the required Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.5.3/js/bootstrap.min.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.datatables.net/1.10.9/js/dataTables.bootstrap.min.js"
+    ></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>RPI-ACMW</title>
+
+    <!---font for card titles--->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--font for card text---->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <!---font for footer icons--->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <!-----font for contact us---->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Khitan+Small+Script&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-----font for team---->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/style.css" />
+
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <nav class="fixed-top">
+      <div class="container">
+        <div class="d-flex justify-content-between">
+          <a class="nav-link" href="index.html">
+            <button type="button" class="btn btn-outline-light btn-md btn-sm">
+              Home
+            </button>
+          </a>
+          <a class="nav-link" href="about.html">
+            <button type="button" class="btn btn-outline-light btn-md btn-sm">
+              About
+            </button>
+          </a>
+          <a class="nav-link" href="team.html">
+            <button type="button" class="btn btn-outline-light btn-md btn-sm">
+              Team
+            </button>
+          </a>
+          <a class="nav-link" href="events.html">
+            <button type="button" class="btn btn-outline-light btn-md btn-sm">
+              Events
+            </button>
+          </a>
+          <a class="nav-link" href="sponsorships.html">
+            <button type="button" class="btn btn-outline-light btn-md btn-sm">
+              Sponsorships
+            </button>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <br /><br /><br /><br />
+
+    <div class="team_text" id="meetOurTeam">
+      <h1>Meet Our Team.</h1>
+      <h2>Click on our names to get to know us better!</h2>
+      <p class="empty-space"></p>
+    </div>
+
+    <div class="container mt-4 theme-container">
+      <br /><br /><br /><br />
+      <!-- First Row -->
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="polaroid-card h-100">
+            <img
+              src="https://cdn.glitch.global/ac86fe72-fb66-4d61-a59e-3f5432d15037/sanya.jpg?v=1690001725213"
+              class="card-img-top"
+              alt="Polaroid Image"
+            />
+            <div class="card-body">
+              <button
+                type="button"
+                class="btn btn-light"
+                data-toggle="modal"
+                data-target="#modal1"
+              >
+                <h5 class="card-title">Sanya Joseph</h5>
+              </button>
+
+              <p class="card-text">Chair</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="polaroid-card h-100">
+            <img
+              src="https://cdn.glitch.global/ac86fe72-fb66-4d61-a59e-3f5432d15037/mel.jpg?v=1690001761712"
+              class="card-img-top"
+              alt="Polaroid Image"
+            />
+            <div class="card-body">
+              <button
+                type="button"
+                class="btn btn-light"
+                data-toggle="modal"
+                data-target="#modal2"
+              >
+                <h5 class="card-title">Maryellen Marino</h5>
+              </button>
+              <p class="card-text">Vice Chair</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="polaroid-card h-100">
+            <img
+              src="https://cdn.glitch.global/ac86fe72-fb66-4d61-a59e-3f5432d15037/ali.jpg?v=1690001847895"
+              class="card-img-top"
+              alt="Polaroid Image"
+            />
+            <div class="card-body">
+              <button
+                type="button"
+                class="btn btn-light"
+                data-toggle="modal"
+                data-target="#modal3"
+              >
+                <h5 class="card-title">Ali Lin</h5>
+              </button>
+              <p class="card-text">Treasurer</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="polaroid-card h-100">
+            <img
+              src="https://cdn.glitch.global/ac86fe72-fb66-4d61-a59e-3f5432d15037/Screenshot%202023-06-20%20at%207.03.54%20PM.png?v=1690001851182"
+              class="card-img-top"
+              alt="Polaroid Image"
+            />
+            <div class="card-body">
+              <button
+                type="button"
+                class="btn btn-light"
+                data-toggle="modal"
+                data-target="#modal4"
+              >
+                <h5 class="card-title">Ishneet Kaur</h5>
+              </button>
+              <p class="card-text">Secretary</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Second Row -->
+      <div class="row mt-4">
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="polaroid-card h-100">
+            <img
+              src="https://cdn.glitch.global/ac86fe72-fb66-4d61-a59e-3f5432d15037/image.png?v=1690001906971"
+              class="card-img-top"
+              alt="Polaroid Image"
+            />
+            <div class="card-body">
+              <button
+                type="button"
+                class="btn btn-light"
+                data-toggle="modal"
+                data-target="#modal5"
+              >
+                <h5 class="card-title">Adeylnn Jones</h5>
+              </button>
+              <p class="card-text">Mentorship Chair</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="polaroid-card h-100">
+            <img
+              src="https://cdn.glitch.global/ac86fe72-fb66-4d61-a59e-3f5432d15037/Screenshot%202023-06-20%20at%207.08.14%20PM.png?v=1690001685789"
+              class="card-img-top"
+              alt="Polaroid Image"
+            />
+            <div class="card-body">
+              <button
+                type="button"
+                class="btn btn-light"
+                data-toggle="modal"
+                data-target="#modal6"
+              >
+                <h5 class="card-title">Nidhi Padmanabhan</h5>
+              </button>
+              <p class="card-text">Webmaster</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="polaroid-card h-100">
+            <img
+              src="https://cdn.glitch.global/ac86fe72-fb66-4d61-a59e-3f5432d15037/Screenshot%202023-06-20%20at%209.23.41%20PM.png?v=1690001601663"
+              class="card-img-top"
+              alt="Polaroid Image"
+            />
+            <div class="card-body">
+              <button
+                type="button"
+                class="btn btn-light"
+                data-toggle="modal"
+                data-target="#modal7"
+              >
+                <h5 class="card-title">Ishita Pandey</h5>
+              </button>
+              <p class="card-text">Corporate Relations Chair</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 mb-4">
+          <div class="polaroid-card h-100">
+            <img
+              src="https://cdn.glitch.global/ac86fe72-fb66-4d61-a59e-3f5432d15037/Adali_crop.jpg.webp?v=1690002039129"
+              class="card-img-top"
+              alt="Polaroid Image"
+            />
+            <div class="card-body">
+              <button
+                type="button"
+                class="btn btn-light"
+                data-toggle="modal"
+                data-target="#modal8"
+              >
+                <h5 class="card-title">Sibel Adali</h5>
+              </button>
+              <p class="card-text">Faculty Advisor</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br /><br /><br /><br />
+    </div>
+
+    <!-- Modal 1 -->
+    <div
+      class="modal fade"
+      id="modal1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modal1Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal1Label">Sanya Joseph</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <b
+                ><i><u>Major:</u></i></b
+              >
+              CS &amp ITWS Dual + Graphic Design Minor
+            </p>
+            <p>
+              <b
+                ><i><u>Class Year:</u></i></b
+              >
+              2026
+            </p>
+            <p>
+              <b
+                ><i><u>Pronouns:</u></i></b
+              >
+              she/her
+            </p>
+            <p>
+              <b
+                ><i><u>What I do for ACM-W:</u></i></b
+              >
+              As the chair of ACM-W I’m responsible for leading the chapter.
+              With that comes developing chapter programs, maintaining
+              relationships with administration and other clubs, and obtaining
+              funding for our chapter.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="connectWithMe">
+              <a
+                href="https://www.linkedin.com/in/sanyajoseph/"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="mailto:joseps2@rpi.edu">
+                <i class="fas fa-envelope"></i>
+              </a>
+              <a href="https://www.instagram.com/sanya.j9/">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div
+      class="modal fade"
+      id="modal2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modal2Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal2Label">Maryellen Marino</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <b
+                ><i><u>Major:</u></i></b
+              >
+              CS &amp Math Dual + CogSci AI Minor
+            </p>
+            <p>
+              <b
+                ><i><u>Class Year:</u></i></b
+              >
+              2024
+            </p>
+            <p>
+              <b
+                ><i><u>Pronouns:</u></i></b
+              >
+              they/them
+            </p>
+            <p>
+              <b
+                ><i><u>What I do for ACM-W:</u></i></b
+              >
+              As the vice chair of ACM-W, I help the chair with various tasks
+              including creating slides for events and writing the
+              administrative newsletter. I will also run events and board
+              meetings if the chair is unable to.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="connectWithMe">
+              <a
+                href="https://www.linkedin.com/in/maryellen-marino/"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin" target="_blank"></i>
+              </a>
+              <a href="mailto:marinm4@rpi.edu" target="_blank">
+                <i class="fas fa-envelope"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/maryellenmarino/"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div
+      class="modal fade"
+      id="modal3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modal3Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal3Label">Ali Lin</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <b
+                ><i><u>Major:</u></i></b
+              >
+              CS + Psychology Minor
+            </p>
+            <p>
+              <b
+                ><i><u>Class Year:</u></i></b
+              >
+              2024
+            </p>
+            <p>
+              <b
+                ><i><u>Pronouns:</u></i></b
+              >
+              she/her
+            </p>
+            <p>
+              <b
+                ><i><u>What I do for ACM-W:</u></i></b
+              >
+              I manage all of ACM-W's finances!
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="connectWithMe">
+              <a href="https://www.linkedin.com/in/alilin6/" target="_blank">
+                <i class="fab fa-linkedin" target="_blank"></i>
+              </a>
+              <a href="mailto:lina7@rpi.edu" target="_blank">
+                <i class="fas fa-envelope"></i>
+              </a>
+              <a href="https://www.instagram.com/ali.lin6/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div
+      class="modal fade"
+      id="modal4"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modal4Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal4Label">Ishneet Kaur</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <b
+                ><i><u>Major:</u></i></b
+              >
+              CS &amp ITWS Dual + Data Science & Engineering Minor
+            </p>
+            <p>
+              <b
+                ><i><u>Class Year:</u></i></b
+              >
+              2026
+            </p>
+            <p>
+              <b
+                ><i><u>Pronouns:</u></i></b
+              >
+              she/her
+            </p>
+            <p>
+              <b
+                ><i><u>What I do for ACM-W:</u></i></b
+              >
+              As the secretary, I manage all of ACM-W's adminstrative tasks and
+              help out with event planning!
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="connectWithMe">
+              <a
+                href="https://www.linkedin.com/in/ishneetkaur15/"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin" target="_blank"></i>
+              </a>
+              <a href="mailto:kauri@rpi.edu" target="_blank">
+                <i class="fas fa-envelope"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/ishneetkaurrr/"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal 5-->
+    <div
+      class="modal fade"
+      id="modal5"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modal5Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal5Label">Adelynn Jones</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <b
+                ><i><u>Major:</u></i></b
+              >
+              CS
+            </p>
+            <p>
+              <b
+                ><i><u>Class Year:</u></i></b
+              >
+              2025
+            </p>
+            <p>
+              <b
+                ><i><u>Pronouns:</u></i></b
+              >
+              she/they
+            </p>
+            <p>
+              <b
+                ><i><u>What I do for ACM-W:</u></i></b
+              >
+              As the Mentorship Chair, I pair incoming freshmen (mentees) with
+              upperclassmen mentors. These mentors allow incoming freshmen to
+              have a welcoming environment where they can ask questions, make
+              connections and have fun along the way. I also plan mentor-mentee
+              programs that provide a space for mentors and mentees to bond and
+              build a strong supportive relationship!
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="connectWithMe">
+              <a
+                href="https://www.linkedin.com/in/adelynnjones/"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="mailto:jonesa19@rpi.edu" target="_blank">
+                <i class="fas fa-envelope"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/adelynncjones/"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 6-->
+    <div
+      class="modal fade"
+      id="modal6"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modal6Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal6Label">Nidhi Padmanabhan</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <b
+                ><i><u>Major:</u></i></b
+              >
+              CS &amp CogSci Dual + Graphic Design Minor
+            </p>
+            <p>
+              <b
+                ><i><u>Class Year:</u></i></b
+              >
+              2026
+            </p>
+            <p>
+              <b
+                ><i><u>Pronouns:</u></i></b
+              >
+              she/her
+            </p>
+            <p>
+              <b
+                ><i><u>What I do for ACM-W:</u></i></b
+              >
+              As the Webmaster, I design, develop, and update this website and
+              the sponsorship booklet. I also create all of the PR/social media
+              posts!
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="connectWithMe">
+              <a
+                href="https://www.linkedin.com/in/nidhipadmanabhan/"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="mailto:padman2@rpi.edu" target="_blank">
+                <i class="fas fa-envelope"></i>
+              </a>
+              <a href="https://www.instagram.com/nidhi.pad/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 7-->
+    <div
+      class="modal fade"
+      id="modal7"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modal7Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal7Label">Ishita Pandey</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <b
+                ><i><u>Major:</u></i></b
+              >
+              CS &amp ITWS Dual
+            </p>
+            <p>
+              <b
+                ><i><u>Class Year:</u></i></b
+              >
+              2025
+            </p>
+            <p>
+              <b
+                ><i><u>Pronouns:</u></i></b
+              >
+              she/her
+            </p>
+            <p>
+              <b
+                ><i><u>What I do for ACM-W:</u></i></b
+              >
+              As the Corporate Relations Chair of ACM-W I’m responsible for
+              connecting ACM-W with popular companies like Johnson and Johnson,
+              Goldman Sachs, Lockheed Martin, Google, and so much more!
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="connectWithMe">
+              <a
+                href="https://www.linkedin.com/in/ishitapandey20/"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="mailto:pandei@rpi.edu" target="_blank">
+                <i class="fas fa-envelope"></i>
+              </a>
+              <a
+                href="https://www.instagram.com/_ishita.pandey/"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal 8-->
+    <div
+      class="modal fade"
+      id="modal8"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="modal8Label"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modal8Label">Sibel Adali</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <b
+                ><i><u>Department:</u></i></b
+              >
+              Computer Science
+            </p>
+            <p>
+              <b
+                ><i><u>Job Title:</u></i></b
+              >
+              Professor &amp Associate Dean
+            </p>
+            <p>
+              <b
+                ><i><u>What I do for ACM-W:</u></i></b
+              >
+              As the faculty advisor, I oversee all club activities!
+            </p>
+          </div>
+          <div class="modal-footer">
+            <div class="connectWithMe">
+              <a href="mailto:sibel@cs.rpi.edu" target="_blank">
+                <i class="fas fa-envelope"></i>
+              </a>
+            </div>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br /><br /><br /><br /><br /><br /><br /><br />
+
+    <footer class="d-flex footer fixed-bottom">
+      <div class="container">
+        <div class="footer-content">
+          <div class="contact">
+            <h5>contact us:</h5>
+          </div>
+          <div class="social-icons">
+            <a
+              href="https://www.instagram.com/rpiacmw/"
+              class="social-icon"
+              target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.facebook.com/rpiacmw"
+              class="social-icon"
+              target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a
+              href="mailto:acmw.rpi@gmail.com"
+              class="social-icon"
+              target="_blank"
+              ><i class="far fa-envelope"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

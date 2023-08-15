@@ -1,0 +1,570 @@
+/*Small devices (phones) */
+@media only screen and (max-width: 390px) {
+  .banner-image {
+    content: url("https://cdn.glitch.global/ac86fe72-fb66-4d61-a59e-3f5432d15037/Untitled%20design-5.png?v=1692070393172");
+    width: 100%;
+    max-width: 390px;
+    display: block;
+  }
+  .pdf-iframe {
+    width: 100%;
+    height: 600px;
+  }
+  .text-content {
+    text-align: center;
+    padding: 20px;
+    color: #778899;
+    font-family: "Oswald", sans-serif;
+    font-size: 12.5px;
+  }
+  .light-blue-block .header {
+    margin: 0;
+    font-size: 20px;
+  }
+  .logo img {
+    width: 100%;
+    max-width: 250px;
+    height: 125px;
+  }
+  .event-image {
+    width: 100%;
+    max-width: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000;
+  }
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 391px) and (max-width: 1024px) {
+  .banner-image {
+    width: 100%;
+    max-width: none;
+    content: url("https://cdn.glitch.global/ac86fe72-fb66-4d61-a59e-3f5432d15037/Untitled%20design-6.png?v=1692070608181");
+  }
+  .pdf-iframe {
+    width: 100%;
+    height: 600px;
+  }
+  .text-content {
+    text-align: center;
+    padding: 20px;
+    color: #778899;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+  }
+
+  .light-blue-block .header {
+    margin: 0;
+    font-size: 25px;
+  }
+  .logo img {
+    width: 100%;
+    max-width: 300px;
+    height: 150px;
+  }
+  .event-image {
+    width: 100%;
+    max-width: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000;
+  }
+}
+
+/* Large devices (desktops/laptops) */
+@media only screen and (min-width: 1025px) and (max-width: 3456px) {
+  .banner-image {
+    width: 100%;
+    max-width: 1600px;
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+    margin-right: 10px;
+  }
+  .pdf-iframe {
+    width: 800px;
+    height: 600px;
+  }
+  .text-content {
+    text-align: center;
+    padding: 20px;
+    color: #778899;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+  }
+
+  .light-blue-block .header {
+    margin: 0;
+    font-size: 30px;
+  }
+  .logo img {
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+  }
+  .event-image {
+    width: 700px;
+    height: 400px;
+    max-width: 1600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000;
+    margin-left: 200px;
+  }
+  .pdf {
+    margin-right: 20px; /* Add some space between the PDF and the logo */
+  }
+}
+
+body {
+  background-color: #ffffff;
+  line-height: 1;
+  margin: 0; /* Remove the default browser margin */
+}
+
+nav {
+  background-color: #38acec;
+  padding: 10px;
+}
+
+nav a {
+  display: block;
+  color: #3bb9ff;
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove the underline from the links */
+}
+
+nav ul li a button.btn-outline-light {
+  background-color: transparent; /* Set the button background to transparent */
+  color: white; /* Set the text color to white */
+  border-color: white; /* Remove the button border */
+}
+
+nav ul li a button.btn-outline-light:hover {
+  background-color: white; /* Set the button background to white on hover */
+  color: lightblue; /* Set the text color to blue on hover */
+}
+
+.small-images-container {
+  text-align: left;
+  margin: 10px;
+}
+
+.small-image {
+  display: inline-block;
+  width: 32px;
+  height: 28px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.bg-midday-blue {
+  background-color: #004ba8;
+}
+
+.footer {
+  background-color: #38acec;
+  padding: 20px 0;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  text-align: center;
+  justify-content: center;
+}
+
+.social-icons {
+  font-size: 30px;
+}
+
+.social-icon {
+  color: #ffffff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  filter: brightness(0.8);
+}
+
+.contact {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 10px;
+  font-style: italic;
+  font-family: "Patua One", cursive;
+  font-size: 6px;
+}
+
+.card-deck {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0; /* Add negative horizontal margin to counteract the padding */
+}
+
+/* Custom styles for each card */
+.card {
+  flex: 0 0 calc(25% - 30px); /* Adjust the width to 25% and account for extra padding */
+  margin: 0 15px; /* Add horizontal margin to create space between cards */
+  margin-bottom: 20px;
+  border: 2px solid lightblue; /* Primary blue border */
+  background-color: #ffffff; /* White background */
+  font-family: "Oswald", sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  padding: 10px; /* Additional padding on the ends of the cards */
+  height: 100%;
+}
+
+.card-title {
+  font-family: "Patua One", cursive;
+  color: #3bb9ff; /* Lighter blue title */
+  margin-bottom: 10px; /* Add some spacing between the title and the body */
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-text {
+  color: #778899;
+  line-height: 1.5;
+  font-family: "Oswald", sans-serif;
+}
+
+/* Center carousel captions */
+.carousel-caption {
+  position: absolute;
+  bottom: 2px; /* Adjust the value to control the vertical position from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #0097b2;
+  padding: 1px 5px; /* Adjust the padding to control the size of the rectangle */
+  color: #ffffff;
+}
+
+/* Style carousel control arrows as circles */
+.carousel-control-prev,
+.carousel-control-next {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; /* Set border-radius to 50% to create a circle */
+  background-color: lightblue;
+  opacity: 0.8;
+  top: 50%; /* Position the arrows vertically at 50% from the top */
+  transform: translateY(
+    -50%
+  ); /* Move the arrows up by 50% of their height to center them vertically */
+}
+
+/* Position the previous arrow to the left and the next arrow to the right */
+.carousel-control-prev {
+  left: 40px;
+}
+
+.carousel-control-next {
+  right: 40px;
+}
+
+/* Add some padding to center the icons in the circles */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* On hover, increase the opacity of the arrows */
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 10;
+}
+/* Add some padding around the carousel */
+.carousel-inner {
+  padding: 10px;
+}
+
+/* Set the height for the images in the carousel */
+.carousel-inner img {
+  height: 500px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.theme-container {
+  background-color: #ffffff;
+  margin-bottom: 40px;
+  border: 6px solid #3bb9ff;
+}
+
+.polaroid-card {
+  position: relative;
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #dddddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.polaroid-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  flex: 1;
+}
+
+/* Add hover effect to the card */
+.polaroid-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.2s ease;
+}
+
+.team_text {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  /* Add a fixed height to prevent flickering */
+  height: 60px;
+  /* Set max-width to prevent overflow */
+  max-width: 100%;
+  overflow: hidden;
+
+  font-size: 40px;
+  color: lightblue;
+  font-weight: bold;
+  font-family: "Patua One", cursive;
+  text-align: center;
+  /* Add animation properties */
+  overflow: hidden; /* Hide overflowing text while animating */
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+.team_text::after {
+  /* Add a caret as if typing */
+  content: "|";
+  display: inline-block;
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+.team_text.typing::after {
+  /* Hide the caret when typing animation is not active */
+  content: "";
+}
+
+.team_text.typing span {
+  display: inline-block;
+  width: 0;
+  /* Use the charTyping animation for each letter */
+  animation: charTyping 2s steps(40) forwards;
+}
+
+.empty-space {
+  height: 30px;
+}
+
+/* computer icon */
+.fas.fa-laptop {
+  font-size: 20px;
+  position: relative;
+  color: #000000;
+}
+
+/* Define styles for the light blue block */
+.light-blue-block {
+  margin-top: 10px;
+  background-color: #e0f2ff;
+  height: 25vh;
+  text-align: center;
+  padding-top: 30px;
+  font-family: "Patua One", cursive;
+  line-height: 1.5;
+  color: #3bb9ff;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the link */
+.card-text a {
+  color: #3bb9ff;
+  text-decoration: underline;
+}
+
+.pdf-and-logo {
+  display: flex; /* Use flexbox to position the elements side by side */
+  flex-wrap: wrap; /* Allow wrapping on smaller screens if needed */
+  justify-content: center; /* Center the items horizontally */
+  margin-top: 40px; /* Add some space between the content and the block below */
+}
+
+iframe {
+  border: 8px solid lightblue;
+}
+
+/* Vertically center the modal */
+.modal-dialog.modal-dialog-centered {
+  display: flex;
+  align-items: center;
+  min-height: calc(
+    100% - 1rem
+  ); /* Adjust as needed to leave space at the bottom */
+}
+
+/* Optional: To hide the horizontal scrollbar that may appear due to the modal-centered display */
+.modal-dialog.modal-dialog-centered::after {
+  display: none;
+}
+
+/* Custom styles for the modal content */
+.modal-title {
+  font-family: "Patua One", cursive;
+  color: #3bb9ff;
+}
+
+.modal-body {
+  font-family: "Oswald", sans-serif;
+  color: #778899;
+  line-height: 1.5;
+}
+
+.modal-body p {
+  margin-bottom: 0.5rem;
+}
+
+.connectWithMe i {
+  font-size: 24px; /* Increase the icon size */
+}
+
+.connectWithMe i:hover {
+  filter: brightness(0.6);
+}
+
+.modal-body a {
+  color: #3bb9ff;
+  text-decoration: underline;
+}
+
+.modal-footer {
+  display: flex;
+  align-items: center;
+  background-color: lightblue;
+}
+
+.modal-footer .connectWithMe {
+  margin-right: auto;
+}
+
+.modal-footer .connectWithMe a {
+  margin-right: 10px; /* Add spacing between icons */
+  color: #3bb9ff; /* Set icon color */
+}
+
+.modal-footer button {
+  font-family: "Oswald", sans-serif;
+  background-color: #3bb9ff; /* Set button background color */
+  color: #ffffff; /* Set button text color */
+  border: none; /* Remove border */
+}
+
+.modal-footer button:hover {
+  filter: brightness(0.8);
+}
+
+.event-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.event-card {
+  width: 100%; /* Take up the full width of the column */
+  height: 300px;
+  margin-bottom: 20px; /* Add space between cards */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+  display: flex; /* To center content vertically */
+  flex-direction: column; /* Align content vertically */
+  justify-content: space-between; /* Distribute space evenly */
+  padding: 15px; /* Add padding to card content */
+}
+
+.front {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1px solid #dddddd;
+}
+
+.event-card:hover .front {
+  background-color: lightblue;
+}
+
+.event-card:hover .back {
+  background-color: #ffffff;
+}
+
+/*text styles for event cards*/
+
+.event-name {
+  font-family: "Patua One", cursive;
+  color: slategrey;
+}
+
+.event-date {
+  font-family: "Patua One", cursive;
+  color: #488ac7;
+  line-height: 1.5;
+}
+
+.event-time {
+  font-family: "Oswald", cursive;
+  color: #488ac7;
+  line-height: 1.5;
+}
+
+.event-location {
+  font-family: "Oswald", cursive;
+  color: #488ac7;
+  line-height: 1.5;
+}
+
+.card-title2 {
+  font-family: "Patua One", cursive;
+  color: slategrey; /* Lighter blue title */
+  margin-bottom: 10px; /* Add some spacing between the title and the body */
+}

@@ -21,6 +21,10 @@
     margin: 0;
     font-size: 20px;
   }
+  .light-blue-block .text-content {
+    font-size: 12px;
+  }
+
   .logo img {
     width: 100%;
     max-width: 250px;
@@ -79,6 +83,10 @@
     margin: 0;
     font-size: 25px;
   }
+  .light-blue-block .text-content {
+    font-size: 15px;
+  }
+
   .logo img {
     width: 100%;
     max-width: 300px;
@@ -142,6 +150,7 @@
     margin: 0;
     font-size: 30px;
   }
+
   .logo img {
     width: 100%;
     max-width: 400px;
@@ -457,7 +466,7 @@ nav ul li a button.btn-outline-light:hover {
 .light-blue-block {
   margin-top: 10px;
   background-color: #e0f2ff;
-  height: 25vh;
+  height: 30vh;
   text-align: center;
   padding-top: 30px;
   font-family: "Patua One", cursive;

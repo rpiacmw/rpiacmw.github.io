@@ -297,6 +297,46 @@ nav ul li a button.btn-outline-light:hover {
   font-size: 6px;
 }
 
+.stat{
+	background: midnightblue;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	color: white;
+	background-attachment: fixed;
+	margin-top: 10px;
+  font-family: "Patua One", cursive;
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px; /* Adds space below the section */
+  border-radius: 6px; 
+
+}
+
+
+
+.stat i{
+	font-size: 50px;
+  color: white;
+}
+
+
+.stat-items h2{
+	font-weight: bold;
+	font-size: 42px;
+}
+
+.stat p{
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+.card i{
+  font-size: 15px;
+  color: blue;
+}
+.btn-link{
+  color: #38acec;
+}
+
 .card-deck {
   display: flex;
   flex-wrap: wrap;
@@ -323,8 +363,9 @@ nav ul li a button.btn-outline-light:hover {
   margin-bottom: 10px; /* Add some spacing between the title and the body */
 }
 
+
 .card-body {
-  padding: 15px;
+  padding: 15px;  
 }
 
 .card-text {
@@ -622,3 +663,5 @@ iframe {
   color: slategrey; /* Lighter blue title */
   margin-bottom: 10px; /* Add some spacing between the title and the body */
 }
+
+

@@ -299,11 +299,10 @@ nav ul li a button.btn-outline-light:hover {
 
 .stat{
 	background: white;
-	padding-top: 80px;
 	padding-bottom: 80px;
 	color: deepskyblue;
 	background-attachment: fixed;
-	margin-top: 10px;
+	margin-top: 15px;
   font-family: "Patua One", cursive;
   box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 30px; /* Adds space below the section */

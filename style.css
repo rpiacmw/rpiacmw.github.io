@@ -298,10 +298,10 @@ nav ul li a button.btn-outline-light:hover {
 }
 
 .stat{
-	background: midnightblue;
+	background: white;
 	padding-top: 80px;
 	padding-bottom: 80px;
-	color: white;
+	color: deepskyblue;
 	background-attachment: fixed;
 	margin-top: 10px;
   font-family: "Patua One", cursive;
@@ -315,7 +315,7 @@ nav ul li a button.btn-outline-light:hover {
 
 .stat i{
 	font-size: 50px;
-  color: white;
+  color: slategrey;
 }
 
 
@@ -331,7 +331,7 @@ nav ul li a button.btn-outline-light:hover {
 
 .card i{
   font-size: 15px;
-  color: blue;
+  color: slategrey;
 }
 .btn-link{
   color: #38acec;

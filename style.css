@@ -536,6 +536,9 @@ nav ul li a button.btn-outline-light:hover {
 .calendar {
    display: flex;
    justify-content: center;
+   padding: 0 10px;
+   box-sizing: border-box;
+   margin-bottom: 10px;
 }
 
 .calendar iframe {

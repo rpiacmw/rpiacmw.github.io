@@ -533,7 +533,11 @@ nav ul li a button.btn-outline-light:hover {
   justify-content: center; /* Center the items horizontally */
   margin-top: 40px; /* Add some space between the content and the block below */
 }
-
+.calendar{
+   display: flex;
+   justify-content: center;
+   
+}
 iframe {
   border: 8px solid lightblue;
 }

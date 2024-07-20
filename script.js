@@ -2951,7 +2951,7 @@
 //image carousel
 $(document).ready(function () {
   $("#myCarousel").carousel({
-    interval: 1500,
+    interval: 5000,
   });
 });
 
